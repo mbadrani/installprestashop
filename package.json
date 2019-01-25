@@ -1,0 +1,30 @@
+{
+  "name": "linkchecker",
+  "version": "1.0.0",
+  "description": "this script will prevent the 400>500 http error code, by crawling your backoffice ",
+  "main": "check_url_status.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbadrani/geppetto.git"
+  },
+  "keywords": [
+    "linkchecker",
+    "httpstatus"
+  ],
+  "author": "mbadrani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbadrani/geppetto/issues"
+  },
+  "homepage": "https://github.com/mbadrani/geppetto#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "puppeteer": "^1.10.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}
